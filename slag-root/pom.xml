@@ -5,6 +5,7 @@
 	<groupId>de.slag.root</groupId>
 	<artifactId>slag-root</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
 
 	<properties>
 		<apache.commons.version>3.7</apache.commons.version>
@@ -18,7 +19,7 @@
 		<javax.servlet.jstl.version>1.2</javax.servlet.jstl.version>
 		<javax.servlet.servlet.api.version>2.5</javax.servlet.servlet.api.version>
 		<javax.servlet.javax.servlet.api.version>3.1.0</javax.servlet.javax.servlet.api.version>
-		
+
 		<hibernate.core.version>5.3.3.Final</hibernate.core.version>
 		<hibernate.annotations.version>3.5.6-Final</hibernate.annotations.version>
 		<hibernate.tools.version>5.3.3.Final</hibernate.tools.version>
@@ -227,6 +228,7 @@
 
 		</dependencies>
 	</dependencyManagement>
+
 
 
 </project>
