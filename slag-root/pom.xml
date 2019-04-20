@@ -42,11 +42,11 @@
 				<version>1.0.2-SNAPSHOT</version>
 			</dependency>
 
-			<dependency>
+<!-- 			<dependency>
 				<groupId>com.sun.xml.bind</groupId>
 				<artifactId>jaxb-impl</artifactId>
 				<version>2.3.1</version>
-			</dependency>
+			</dependency> -->
 			<dependency>
 				<groupId>javax.annotation</groupId>
 				<artifactId>javax.annotation-api</artifactId>
@@ -225,6 +225,13 @@
 				<artifactId>primefaces</artifactId>
 				<version>${org.primefaces-primefaces.version}</version>
 			</dependency>
+
+			<dependency>
+				<groupId>javax.xml.bind</groupId>
+				<artifactId>jaxb-api</artifactId>
+				<version>2.3.1</version>
+			</dependency>
+
 
 		</dependencies>
 	</dependencyManagement>
