@@ -33,12 +33,17 @@
 		<org.primefaces-primefaces.version>6.0</org.primefaces-primefaces.version>
 		<commons-cli.version>1.4</commons-cli.version>
 		<h2.version>1.4.199</h2.version>
-		<hamcrest.version>2.1</hamcrest.version>
+		<hamcrest.version>1.3</hamcrest.version>
 		<junit.version>4.12</junit.version>
 	</properties>
 
 	<dependencyManagement>
 		<dependencies>
+				<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<version>${h2.version}</version>
+		</dependency>
 			<dependency>
 				<groupId>junit</groupId>
 				<artifactId>junit</artifactId>
@@ -48,7 +53,7 @@
 
 			<dependency>
 				<groupId>org.hamcrest</groupId>
-				<artifactId>hamcrest</artifactId>
+				<artifactId>hamcrest-all</artifactId>
 				<version>${hamcrest.version}</version>
 				<scope>test</scope>
 			</dependency>
