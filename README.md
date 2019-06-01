@@ -5,7 +5,7 @@
 * SoC - Separate of concern
 * FCoI - Favor Composition over Inheritance
 * LoD - Daw of Demeter, "don't talk to strangers"
-* YAGNI - You aint gonna neet it
+* YAGNI - You aint gonna need it
 
 ## Pattern Language
 |Pattern|Description|
