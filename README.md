@@ -4,6 +4,8 @@
 * KISS - Keep it simple, stupid
 * SoC - Separate of concern
 * FCoI - Favor Composition over Inheritance
+* LoD - Daw of Demeter, "don't talk to strangers"
+* YAGNI - You aint gonna neet it
 
 ## Pattern Language
 |Pattern|Description|
