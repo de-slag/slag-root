@@ -38,6 +38,7 @@
 		<junit.jupiter.version>5.3.1</junit.jupiter.version>
 		<javax.annotation.version>1.3.2</javax.annotation.version>
 		<javax.xml.bind.version>2.3.1</javax.xml.bind.version>
+		<javax.persitence.api.version>2.2</javax.persitence.api.version>
 	</properties>
 
 	<dependencyManagement>
@@ -150,6 +151,13 @@
 			</dependency>
 
 			<!-- persistence -->
+
+			<dependency>
+				<groupId>javax.persistence</groupId>
+				<artifactId>javax.persistence-api</artifactId>
+
+				<version>${javax.persitence.api.version}</version>
+			</dependency>
 
 			<dependency>
 				<groupId>org.hibernate</groupId>
