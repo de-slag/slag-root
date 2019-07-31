@@ -54,6 +54,7 @@
 				<scope>test</scope>
 			</dependency>
 
+<!-- junit jupiter currently not in use
 			<dependency>
 				<groupId>org.mockito</groupId>
 				<artifactId>mockito-junit-jupiter</artifactId>
@@ -68,6 +69,7 @@
 				<scope>test</scope>
 			</dependency>
 
+ -->
 
 
 
@@ -272,6 +274,7 @@
 			</dependency>
 
 			<!-- TEST -->
+			<!-- junit jupiter currently not in use
 			<dependency>
 				<groupId>org.junit.jupiter</groupId>
 				<artifactId>junit-jupiter-engine</artifactId>
@@ -284,6 +287,7 @@
 				<version>${junit.jupiter.version}</version>
 				<scope>test</scope>
 			</dependency>
+			 -->
 
 			<dependency>
 				<groupId>junit</groupId>
