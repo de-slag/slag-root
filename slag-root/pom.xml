@@ -48,12 +48,19 @@
 		<dependencies>
 
 			<dependency>
+				<groupId>javax.mail</groupId>
+				<artifactId>mail</artifactId>
+				<version>1.4</version>
+			</dependency>
+
+			<dependency>
 				<groupId>org.mockito</groupId>
 				<artifactId>mockito-all</artifactId>
 				<version>${mockito.all.version}</version>
 				<scope>test</scope>
 			</dependency>
 
+<!-- junit jupiter currently not in use
 			<dependency>
 				<groupId>org.mockito</groupId>
 				<artifactId>mockito-junit-jupiter</artifactId>
@@ -68,6 +75,7 @@
 				<scope>test</scope>
 			</dependency>
 
+ -->
 
 
 
@@ -272,6 +280,7 @@
 			</dependency>
 
 			<!-- TEST -->
+			<!-- junit jupiter currently not in use
 			<dependency>
 				<groupId>org.junit.jupiter</groupId>
 				<artifactId>junit-jupiter-engine</artifactId>
@@ -284,6 +293,7 @@
 				<version>${junit.jupiter.version}</version>
 				<scope>test</scope>
 			</dependency>
+			 -->
 
 			<dependency>
 				<groupId>junit</groupId>
